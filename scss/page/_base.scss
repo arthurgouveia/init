@@ -1,6 +1,6 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
 /*
- * HTML5 Boilerplate
- *
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
@@ -10,32 +10,25 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
-	color: $main-color;
-}
-
-body {
+html {
+	color: #222;
 	font-size: 1em;
 	line-height: 1.4;
 }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate.
+ * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
 
 ::-moz-selection {
-	background: $selection-color;
+	background: #b3d4fc;
 	text-shadow: none;
 }
 
 ::selection {
-	background: $selection-color;
+	background: #b3d4fc;
 	text-shadow: none;
 }
 
@@ -47,16 +40,21 @@ hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid $hr-color;
+	border-top: 1px solid #ccc;
 	margin: 1em 0;
 	padding: 0;
 }
 
 /*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
  */
 
-img {
+audio,
+canvas,
+img,
+svg,
+video {
 	vertical-align: middle;
 }
 
