@@ -6,5 +6,13 @@
       "templates/footer.html"
     ],
     "dest": "temp/index.html"
+  },
+  "about": {
+    "src": [
+      "templates/header.html",
+      "templates/about.html",
+      "templates/footer.html"
+    ],
+    "dest": "temp/about.html"
   }
 }

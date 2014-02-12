@@ -2,7 +2,7 @@
 
 # General Purpose
 
-Init is a project is based upon HTML5 Boilerplate. It adds more structure to your SCSS files and JavaScripts and helps you staring your project faster by reducing boilerplate code and tasks.
+Init is a project is based upon HTML5 Boilerplate. It adds more structure to your SCSS and JavaScript files and helps you staring your project faster by reducing boilerplate code and tasks.
 Init includes build tasks for your projects, proivdes a test infrastructure and implements tools to help you creating web pages and apps fast.
 
 # Starting Point
@@ -11,7 +11,7 @@ When starting a new project with init you will need to make sure to install some
 
 ## Clone the project
 
-	$ git clone git@github.com:drublic/init.git
+	$ git clone git@github.com:use-init/init.git
 
 This will create a local clone of init in a subfolder called 'init' in the directory you chose before in the command line. You can rename the folder name.
 
@@ -20,12 +20,10 @@ This will create a local clone of init in a subfolder called 'init' in the direc
 ### Majors:
 
 * Node.js
-* Ruby
 
 #### Secondaries:
 
 * npm (comes with node)
-* Sass (Ruby gem: `$ gem install sass`)
 
 Apart from that we make use of GruntJS and you might want to install it globally via
 

@@ -3,6 +3,8 @@
  */
 'use strict';
 
+var xtend = require('xtend');
+
 /**
  * Load configuration files for Grunt
  * @param  {string} path Path to folder with tasks
@@ -26,11 +28,12 @@ var loadConfig = function (path) {
  */
 module.exports = function (grunt) {
 
-	var config = {
-		pkg: require('./package')
-	};
+	// Measure time of grunt tasks
+	require('time-grunt')(grunt);
 
-	grunt.util._.extend(config, loadConfig('./tasks/options/'));
+	var config = xtend({
+		pkg: require('./package')
+	}, loadConfig('./tasks/options/'));
 
 	// Load project configuration
 	grunt.initConfig(config);

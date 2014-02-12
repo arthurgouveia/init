@@ -2,6 +2,23 @@
 
 ### HEAD
 
+* Update to Apache Server Configs v2.2.0
+
+### 1.1.0 (29 January 2014)
+* Further optimize `apple-touch-icon-precomposed`
+* Add `Disallow:` to `robots.txt`
+* Update 404 to reduce uncopressed size
+* Update Bower packages and npm dependencies to latest
+* Update to Apache Server Configs v2.1.0
+* Simplified default template markup (#81)
+* Add time-grunt to measure grunt's execution time
+* Use libsass instead of Ruby Sass
+* Clean up karma.conf.js
+* Use xtend instead of deprecated Grunt dependency Lodash
+* Update Grunt to 0.4.2
+* Minor updates of IE 6, 7 support
+* Removing .ir class, as it was done on HTML5 Boilerplate
+
 ### 1.0.2 (11 December 2013)
 * Minor updates to .htaccess
 * Clean up Gruntfile
